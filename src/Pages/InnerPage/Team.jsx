@@ -1,8 +1,13 @@
 import { FaFacebookF, FaLinkedinIn, FaPinterestP } from "react-icons/fa";
 import BreadCrumb from "../../BreadCrumb/BreadCrumb";
 import { BsTwitter } from "react-icons/bs";
+import { AiOutlineEye } from "react-icons/ai";
+import FsLightbox from "fslightbox-react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Team = () => {
+  const [toggler, setToggler] = useState(false);
   return (
     <div>
       <BreadCrumb title="Desert Hermitage Gallery" />
@@ -230,8 +235,175 @@ const Team = () => {
         </div>
       </div>
 
-      <div className="flex">
-        <img src="/images/"/>
+      <div className="grid grid-cols-1 lg:grid-cols-3 2xl:grid-cols-4 overflow-hidden">
+        {/* grid col-1 */}
+        <div
+          className=" relative group 2xl:col-span-2"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <img
+            src="/images/all/Villa corridor night.jpg"
+            className="w-full h-full group-hover:grayscale"
+            alt=""
+          />
+        </div>
+        {/* grid-col-2 */}
+        <div
+          className="md:flex lg:block 2xl:col-span-1"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div className=" relative group">
+            <img
+              src="/images/all/k 31564.jpg"
+              className="w-full  group-hover:grayscale"
+              alt=""
+            />
+            {/* hover effect and text */}
+          </div>
+          <div className="relative group">
+            <img
+              src="/images/all/IMG_7589.jpg"
+              className="w-full group-hover:grayscale"
+              alt=""
+            />
+            {/* hover effect and text */}
+          </div>
+        </div>
+        {/* grid col-3 */}
+        <div
+          className="md:flex lg:block 2xl:col-span-1"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div className=" relative group">
+            <img
+              src="/images/all/Villa sitout front.jpg"
+              className="h-[450px] md:h-[520px] lg:h-fit object-cover w-full group-hover:grayscale"
+              alt=""
+            />
+            {/* hover effect and text */}
+          </div>
+          <div className=" relative group">
+            <img
+              src="/images/all/k 32479.jpg"
+              className="h-[450px] md:h-[520px] lg:h-fit object-cover w-full group-hover:grayscale"
+              alt=""
+            />
+            {/* hover effect and text */}
+          </div>
+        </div>
+        <div
+          className="md:flex lg:block 2xl:col-span-1"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div className=" relative group">
+            <img
+              src="/images/all/k 32481.jpg"
+              className="h-[450px] md:h-[520px] lg:h-fit object-cover w-full group-hover:grayscale"
+              alt=""
+            />
+            {/* hover effect and text */}
+          </div>
+          <div className=" relative group">
+            <img
+              src="/images/all/Villa bath night 2.jpg"
+              className="h-[450px] md:h-[520px] lg:h-fit object-cover w-full group-hover:grayscale"
+              alt=""
+            />
+            {/* hover effect and text */}
+          </div>
+        </div>
+        <div
+          className="md:flex lg:block 2xl:col-span-1"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div className=" relative group">
+            <img
+              src="/images/all/Villa bathroom night.jpg"
+              className="h-[450px] md:h-[520px] lg:h-fit object-cover w-full group-hover:grayscale"
+              alt=""
+            />
+            {/* hover effect and text */}
+          </div>
+          <div className=" relative group">
+            <img
+              src="/images/all/Villa corridor day3.jpg"
+              className="h-[450px] md:h-[520px] lg:h-fit object-cover w-full group-hover:grayscale"
+              alt=""
+            />
+            {/* hover effect and text */}
+          </div>
+        </div>
+        <div
+          className="md:flex lg:block 2xl:col-span-1"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div className=" relative group">
+            <img
+              src="/images/all/Villa entrance.jpg"
+              className="h-[450px] md:h-[520px] lg:h-fit object-cover w-full group-hover:grayscale"
+              alt=""
+            />
+            {/* hover effect and text */}
+          </div>
+          <div className=" relative group">
+            <img
+              src="/images/all/Villa exterior night.jpg"
+              className="h-[450px] md:h-[520px] lg:h-fit object-cover w-full group-hover:grayscale"
+              alt=""
+            />
+            {/* hover effect and text */}
+          </div>
+        </div>
+        <div
+          className="md:flex lg:block 2xl:col-span-1"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div className=" relative group">
+            <img
+              src="/images/all/villla daylight1.jpg"
+              className="h-[450px] md:h-[520px] lg:h-fit object-cover w-full group-hover:grayscale"
+              alt=""
+            />
+            {/* hover effect and text */}
+          </div>
+          <div className=" relative group">
+            <img
+              src="/images/all/k 32478.jpg"
+              className="h-[450px] md:h-[520px] lg:h-fit object-cover w-full group-hover:grayscale"
+              alt=""
+            />
+            {/* hover effect and text */}
+          </div>
+        </div>
+        <div
+          className="md:flex lg:block 2xl:col-span-1"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div className=" relative group">
+            <img
+              src="/images/all/IMG_7590.jpg"
+              className="h-[450px] md:h-[520px] lg:h-fit object-cover w-full group-hover:grayscale"
+              alt=""
+            />
+            {/* hover effect and text */}
+          </div>
+          <div className=" relative group">
+            <img
+              src="/images/all/IMG_7587.jpg"
+              className="h-[450px] md:h-[520px] lg:h-fit object-cover w-full group-hover:grayscale"
+              alt=""
+            />
+            {/* hover effect and text */}
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -29,6 +29,7 @@ import Blog from "../Pages/InnerPage/Blog";
 import BlogDetails from "../Pages/InnerPage/BlogDetails";
 import Contact from "../Pages/InnerPage/Contact";
 import ErrorPage from "../Shared/ErrorPage/ErrorPage";
+import Gallery from "../Components5/Gallery/Gallery";
 
 // Starting React Router.
 const router = createBrowserRouter([
@@ -101,7 +102,10 @@ const router = createBrowserRouter([
         path: "/about",
         element: <About />,
       },
-
+      {
+        path: "/gallery",
+        element: <Team />,
+      },
       {
         path: "/room",
         element: <Room />,

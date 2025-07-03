@@ -291,6 +291,18 @@ const Navbar2 = () => {
                   : isActive
                   ? "active"
                   : ""} text-lightBlack lg:text-white dark:text-white lg:border-b-0 px-3 py-2 w-full block transition-all duration-300 `}
+              to="/gallery"
+            >
+              Gallery
+            </NavLink>
+            <NavLink
+              onClick={toggleNavbar}
+              className={`${({ isActive, isPending }) =>
+                isPending
+                  ? "pending"
+                  : isActive
+                  ? "active"
+                  : ""} text-lightBlack lg:text-white dark:text-white lg:border-b-0 px-3 py-2 w-full block transition-all duration-300 `}
               to="/contact"
             >
               Contact
