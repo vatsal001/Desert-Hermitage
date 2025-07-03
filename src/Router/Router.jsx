@@ -107,7 +107,7 @@ const router = createBrowserRouter([
         element: <Room />,
       },
       {
-        path: "/contact",
+        path: "/find_room",
         element: <FindRoom />,
       },
       {
