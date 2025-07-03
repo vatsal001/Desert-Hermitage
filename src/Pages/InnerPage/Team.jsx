@@ -23,7 +23,7 @@ const Team = () => {
               <img
                 src="/images/all/logo.png"
                 alt="room_section_logo"
-                className="w-[50px] h-[50px]"
+                className="w-[100px] h-[50px]"
               />
               <hr className="w-[100px] h-[1px] bg-lightGray dark:bg-gray text-lightGray dark:text-gray" />
             </div>
