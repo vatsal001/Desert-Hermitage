@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   return (
     <section
       className="bg-[url('/images/all/11.jpg')] bg-no-repeat bg-center w-full bg-cover h-[600px] md:h-[650px] lg:h-[700px] 2xl:h-[960px] grid items-center justify-center bg-[rgba(30,30,30,0.4)] bg-opacity-30 "
@@ -14,7 +15,10 @@ const HeroSection = () => {
         <p className="text-2xl sm:text-4xl md:text-5xl xl:text-6xl font-bold leading-[75px] mt-[30px] md:mt-[40px]   2xl:mt-[75px] relative before:absolute before:w-[1px] before:h-[30px] md:before:h-[40px] 2xl:before:h-[50px] before:-top-[18px] sm:before:-top-[28px] md:before:-top-[40px] 2xl:before:-top-[60px] before:left-1/2 before:bg-white">
           Welcome to Desert Hermitage
         </p>
-        <button className="w-[142px] 2xl:w-[210px] h-[50px] text-[15px] bg-khaki font-Garamond text-white sm:mt-[47px] hover-animBg after:bg-normalBlack after:rounded-none text-base md:text-lg">
+        <button
+          onClick={() => navigate("/room")}
+          className="w-[142px] 2xl:w-[210px] h-[50px] text-[15px] bg-khaki font-Garamond text-white sm:mt-[47px] hover-animBg after:bg-normalBlack after:rounded-none text-base md:text-lg"
+        >
           Explore Now
         </button>
       </div>
