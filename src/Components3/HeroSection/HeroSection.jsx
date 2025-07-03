@@ -85,7 +85,7 @@ const HeroSection = () => {
               </div>
 
               <button className="flex-initial  h-[90px] md:h-[99px] text-[15px] 2xl:text-[17px]  bg-khaki hover-animBg after:bg-normalBlack dark:after:bg-lightBlack after:rounded-none font-Garamond text-[#fefefe] ">
-                <Link to="/home3/find_room">SEARCH ROOM</Link>
+                <Link to="/home3/contact">SEARCH ROOM</Link>
               </button>
             </form>
             <p className="text-center  text-sm md:text-base lg:text-lg 2xl:text-[24px] italic font-Garamond font-bold text-lightGray pb-[60px]">

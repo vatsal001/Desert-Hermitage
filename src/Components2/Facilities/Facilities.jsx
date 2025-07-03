@@ -43,7 +43,7 @@ const Facilities = () => {
                 with modern comforts.
               </p>
               {/* <Link
-                to={"/find_room"}
+                to={"/contact"}
                 className="group-hover:opacity-100 flex items-center justify-center text-khaki transition-all duration-300 text-sm sm:text-[15px] leading-[38px] font-Lora font-normal uppercase opacity-0 pb-[20px]"
               >
                 {" "}
@@ -72,7 +72,7 @@ const Facilities = () => {
                 unforgettable sunsets.
               </p>
               {/* <Link
-                to={"/find_room"}
+                to={"/contact"}
                 className="group-hover:opacity-100 flex items-center justify-center text-khaki transition-all duration-300 text-sm sm:text-[15px] leading-[38px] font-Lora font-normal uppercase opacity-0 pb-[20px]"
               >
                 {" "}
@@ -101,7 +101,7 @@ const Facilities = () => {
                 desert wind as background music.
               </p>
               {/* <Link
-                to={"/find_room"}
+                to={"/contact"}
                 className="group-hover:opacity-100 flex items-center justify-center text-khaki transition-all duration-300 text-sm sm:text-[15px] leading-[38px] font-Lora font-normal uppercase opacity-0 pb-[20px]"
               >
                 {" "}
@@ -129,7 +129,7 @@ const Facilities = () => {
                 generations.
               </p>
               {/* <Link
-                to={"/find_room"}
+                to={"/contact"}
                 className="group-hover:opacity-100 flex items-center justify-center text-khaki transition-all duration-300 text-sm sm:text-[15px] leading-[38px] font-Lora font-normal uppercase opacity-0 pb-[20px]"
               >
                 {" "}
@@ -157,7 +157,7 @@ const Facilities = () => {
                 deeper.
               </p>
               {/* <Link
-                to={"/find_room"}
+                to={"/contact"}
                 className="group-hover:opacity-100 flex items-center justify-center text-khaki transition-all duration-300 text-sm sm:text-[15px] leading-[38px] font-Lora font-normal uppercase opacity-0 pb-[20px]"
               >
                 {" "}
@@ -184,7 +184,7 @@ const Facilities = () => {
                 books and silence.
               </p>
               {/* <Link
-                to={"/find_room"}
+                to={"/contact"}
                 className="group-hover:opacity-100 flex items-center justify-center text-khaki transition-all duration-300 text-sm sm:text-[15px] leading-[38px] font-Lora font-normal uppercase opacity-0 pb-[20px]"
               >
                 {" "}
@@ -211,7 +211,7 @@ const Facilities = () => {
                 transforms from gold to crimson to indigo.
               </p>
               {/* <Link
-                to={"/find_room"}
+                to={"/contact"}
                 className="group-hover:opacity-100 flex items-center justify-center text-khaki transition-all duration-300 text-sm sm:text-[15px] leading-[38px] font-Lora font-normal uppercase opacity-0 pb-[20px]"
               >
                 {" "}

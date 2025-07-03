@@ -256,7 +256,7 @@ const Navbar5 = () => {
                     </div>
                     <div className=" px-5 group hover:bg-khaki hover:text-white">
                       <li className="hover:ml-3 duration-300  ">
-                        <NavLink to="/home5/find_room" className="block py-2">
+                        <NavLink to="/home5/contact" className="block py-2">
                           Find Room
                         </NavLink>
                       </li>

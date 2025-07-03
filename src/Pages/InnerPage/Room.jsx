@@ -94,10 +94,7 @@ const Room = () => {
               <div className="font-Garamond">
                 <div className=" border-[1px] border-[#e8e8e8] dark:border-[#424242]  border-t-0">
                   <div className="py-6 px-[30px]">
-                    <Link
-                      to="/find_room"
-                      state={{ title: "Delux Family Rooms" }}
-                    >
+                    <Link to="/contact" state={{ title: "Delux Family Rooms" }}>
                       <h2 className="text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
                         🛖 Classic Mud Cottage
                       </h2>
@@ -137,10 +134,7 @@ const Room = () => {
               <div className="font-Garamond">
                 <div className=" border-[1px] border-[#e8e8e8] dark:border-[#424242]  border-t-0">
                   <div className="py-6 px-[30px]">
-                    <Link
-                      to="/find_room"
-                      state={{ title: "Delux Family Rooms" }}
-                    >
+                    <Link to="/contact" state={{ title: "Delux Family Rooms" }}>
                       <h2 className="text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
                         🏡 Deluxe Cottage
                       </h2>
@@ -179,10 +173,7 @@ const Room = () => {
               <div className="font-Garamond">
                 <div className=" border-[1px] border-[#e8e8e8] dark:border-[#424242]  border-t-0">
                   <div className="py-6 px-[30px]">
-                    <Link
-                      to="/find_room"
-                      state={{ title: "Delux Family Rooms" }}
-                    >
+                    <Link to="/contact" state={{ title: "Delux Family Rooms" }}>
                       <h2 className="text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
                         👥 Group Stay Hut
                       </h2>

@@ -145,6 +145,7 @@ const Navbar2 = () => {
               </div> */}
             </NavLink>
             <NavLink
+              onClick={toggleNavbar}
               className={`${({ isActive, isPending }) =>
                 isPending
                   ? "pending"
@@ -156,6 +157,7 @@ const Navbar2 = () => {
               About
             </NavLink>
             <NavLink
+              onClick={toggleNavbar}
               to="/room"
               className={`${({ isActive, isPending }) =>
                 isPending
@@ -179,7 +181,7 @@ const Navbar2 = () => {
                   </div>
                   <div className=" px-5 group hover:bg-khaki hover:text-white">
                     <li className="hover:ml-3 duration-300  ">
-                      <NavLink to="/find_room" className="block py-2">
+                      <NavLink to="/contact" className="block py-2">
                         Find Room
                       </NavLink>
                     </li>
@@ -195,6 +197,7 @@ const Navbar2 = () => {
               </div> */}
             </NavLink>
             <NavLink
+              onClick={toggleNavbar}
               className={`${({ isActive, isPending }) =>
                 isPending
                   ? "pending"
@@ -281,6 +284,7 @@ const Navbar2 = () => {
               </div>
             </NavLink> */}
             <NavLink
+              onClick={toggleNavbar}
               className={`${({ isActive, isPending }) =>
                 isPending
                   ? "pending"
@@ -295,7 +299,7 @@ const Navbar2 = () => {
 
           {/* large device visible button and search icon */}
           <div className="hidden lg:flex items-center">
-            <Link to="/find_room">
+            <Link to="tel:+9196725 79662">
               {" "}
               <button className="btn-secondary md:before:top-[60px] lg:before:top-[65px] ">
                 Call us

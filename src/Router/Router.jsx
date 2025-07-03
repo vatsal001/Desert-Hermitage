@@ -50,7 +50,7 @@ const router = createBrowserRouter([
   //       element: <Room />,
   //     },
   //     {
-  //       path: "/find_room",
+  //       path: "/contact",
   //       element: <FindRoom />,
   //     },
   //     {
@@ -107,7 +107,7 @@ const router = createBrowserRouter([
         element: <Room />,
       },
       {
-        path: "/find_room",
+        path: "/contact",
         element: <FindRoom />,
       },
       {
@@ -163,7 +163,7 @@ const router = createBrowserRouter([
         element: <Room />,
       },
       {
-        path: "/home3/find_room",
+        path: "/home3/contact",
         element: <FindRoom />,
       },
       {
@@ -219,7 +219,7 @@ const router = createBrowserRouter([
         element: <Room />,
       },
       {
-        path: "/home4/find_room",
+        path: "/home4/contact",
         element: <FindRoom />,
       },
       {
@@ -275,7 +275,7 @@ const router = createBrowserRouter([
         element: <Room />,
       },
       {
-        path: "/home5/find_room",
+        path: "/home5/contact",
         element: <FindRoom />,
       },
       {

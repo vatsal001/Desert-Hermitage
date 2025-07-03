@@ -47,7 +47,7 @@ const Agency = () => {
               solo travelers, artists, couples & nature seekers Operated with
               heart, history, and hospitality
             </p>
-            <Link to={"/find_room"}>
+            <Link to={"/contact"}>
               <button className="btn-primary mt-[25px]">Contact Us</button>
             </Link>
           </div>

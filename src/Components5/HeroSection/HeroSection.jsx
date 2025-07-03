@@ -135,7 +135,7 @@ const HeroSection = () => {
                     </select>
                   </div>
                   <button className="text-white hover-animBg after:rounded-none text-sm sm:text-base tracking-[1px] leading-7 xl:leading-[38px] font-normal font-Lora  pl-2 bg-transparent cursor-pointer border border-khaki py-2 xl:py-1 z-[1]">
-                    <Link to="/home5/find_room " className="block">
+                    <Link to="/home5/contact " className="block">
                       Get In Touch
                     </Link>
                   </button>
@@ -199,7 +199,7 @@ const HeroSection = () => {
                   </div>
 
                   <button className="text-white hover-animBg after:rounded-none text-sm sm:text-base tracking-[1px] leading-7 xl:leading-[38px] font-normal font-Lora  pl-2 bg-transparent cursor-pointer border-khaki z-[1]">
-                    <Link to="/home5/find_room " className="block">
+                    <Link to="/home5/contact " className="block">
                       Get In Touch
                     </Link>
                   </button>
@@ -284,7 +284,7 @@ const HeroSection = () => {
                   </select>
                 </div>
                 <button className="text-white hover-animBg after:rounded-none text-sm sm:text-base tracking-[1px] leading-7 xl:leading-[38px] font-normal font-Lora  pl-2 bg-transparent cursor-pointer border border-khaki py-2 xl:py-1 z-[1]">
-                  <Link to="/home5/find_room " className="block">
+                  <Link to="/home5/contact " className="block">
                     Get In Touch
                   </Link>
                 </button>
@@ -347,7 +347,7 @@ const HeroSection = () => {
                   </select>
                 </div>
                 <button className="text-white hover-animBg after:rounded-none text-sm sm:text-base tracking-[1px] leading-7 xl:leading-[38px] font-normal font-Lora  pl-2 bg-transparent cursor-pointer border-khaki z-[1]">
-                  <Link to="/home5/find_room " className="block">
+                  <Link to="/home5/contact " className="block">
                     Get In Touch
                   </Link>
                 </button>
@@ -431,7 +431,7 @@ const HeroSection = () => {
                   </select>
                 </div>
                 <button className="text-white hover-animBg after:rounded-none text-sm sm:text-base tracking-[1px] leading-7 xl:leading-[38px] font-normal font-Lora  pl-2 bg-transparent cursor-pointer border border-khaki py-2 xl:py-1 z-[1]">
-                  <Link to="/home5/find_room " className="block">
+                  <Link to="/home5/contact " className="block">
                     Get In Touch
                   </Link>
                 </button>
@@ -494,7 +494,7 @@ const HeroSection = () => {
                   </select>
                 </div>
                 <button className="text-white hover-animBg after:rounded-none text-sm sm:text-base tracking-[1px] leading-7 xl:leading-[38px] font-normal font-Lora  pl-2 bg-transparent cursor-pointer border-khaki z-[1]">
-                  <Link to="/home5/find_room " className="block">
+                  <Link to="/home5/contact " className="block">
                     Get In Touch
                   </Link>
                 </button>
