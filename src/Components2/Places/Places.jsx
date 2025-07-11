@@ -2,6 +2,7 @@ import { useState } from "react";
 import FsLightbox from "fslightbox-react";
 import { BiLink } from "react-icons/bi";
 import { Link } from "react-router-dom";
+import ImageSlider from "../../Pages/Home2/ImageSlider";
 const Places = () => {
   const [toggler, setToggler] = useState(false);
   return (
@@ -24,16 +25,13 @@ const Places = () => {
       </div>
       {/* section Content */}
       <div className="mt-14 2xl:mt-[60px]">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] px-5 ">
-          {/* place-1 */}
+        <ImageSlider />
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] px-5 ">
           <div
             className="overflow-hidden relative group cursor-grab"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            {/* <span className="bg-khaki text-white text-sm font-medium font-Garamond px-[20px] py-[6px] uppercase absolute top-[29px] right-[27px]">
-              East terrace
-            </span> */}
             <img
               src="/images/all/IMG_7587.jpg"
               className="transition-all duration-500 hover:scale-[1.08]"
@@ -46,15 +44,11 @@ const Places = () => {
               <BiLink className="text-khaki" size={24} />
             </span>
           </div>
-          {/* place-2 */}
           <div
             className="overflow-hidden relative group cursor-grab"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            {/* <span className="bg-khaki text-white text-sm font-medium font-Garamond px-[20px] py-[6px] uppercase absolute top-[29px] right-[27px]">
-              East terrace
-            </span> */}
             <img
               src="/images/all/IMG_7588.jpg"
               className="transition-all duration-500 hover:scale-[1.08]"
@@ -67,15 +61,11 @@ const Places = () => {
               <BiLink className="text-khaki" size={24} />
             </span>
           </div>
-          {/* place-3 */}
           <div
             className="overflow-hidden relative group cursor-grab"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            {/* <span className="bg-khaki text-white text-sm font-medium font-Garamond px-[20px] py-[6px] uppercase absolute top-[29px] right-[27px]">
-              East terrace
-            </span> */}
             <img
               src="/images/all/IMG_7589.jpg"
               className="transition-all duration-500 hover:scale-[1.08]"
@@ -88,8 +78,6 @@ const Places = () => {
               <BiLink className="text-khaki" size={24} />
             </span>
           </div>
-
-          {/* FsLight-box all images. */}
           <FsLightbox
             toggler={toggler}
             sources={[
@@ -98,7 +86,7 @@ const Places = () => {
               "/images/home-2/places-3.png",
             ]}
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );

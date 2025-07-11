@@ -15,7 +15,6 @@ const Home2 = () => {
       <Places />
       <Rooms />
       <Testimonials />
-      {/* <Blogs /> */}
     </>
   );
 };
