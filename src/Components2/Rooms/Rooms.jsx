@@ -1,7 +1,18 @@
 import { useKeenSlider } from "keen-slider/react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Rooms = () => {
+  const [current, setCurrent] = useState(0);
+
+  const prevSlide = () => {
+    setCurrent((prev) => (prev === 0 ? 5 - 1 : prev - 1));
+  };
+
+  const nextSlide = () => {
+    setCurrent((prev) => (prev === 5 - 1 ? 0 : prev + 1));
+  };
+
   const [sliderRef] = useKeenSlider({
     breakpoints: {
       "(min-width: 320px)": {
@@ -19,7 +30,7 @@ const Rooms = () => {
   });
 
   return (
-    <section className="py-20 2xl:py-[120px] bg-whiteSmoke dark:bg-normalBlack">
+    <section className="pt-20 2xl:py-[120px] bg-whiteSmoke dark:bg-normalBlack">
       <div className="Container">
         {/* section heading */}
         <div
@@ -43,7 +54,10 @@ const Rooms = () => {
           <div ref={sliderRef} className="keen-slider relative">
             {/* Room - one */}
 
-            <div className="keen-slider__slide number-slide1">
+            <div
+              style={{ transform: `translateX(-${current * 100}%)` }}
+              className="keen-slider__slide number-slide1 transition-transform duration-500"
+            >
               <div
                 className="lg:relative  pt-10 xsm:pb-12 sm:pb-16 md:pb-0"
                 data-aos="fade-up"
@@ -90,7 +104,10 @@ const Rooms = () => {
             </div>
             {/* Rome two */}
 
-            <div className="keen-slider__slide number-slide1">
+            <div
+              style={{ transform: `translateX(-${current * 100}%)` }}
+              className="keen-slider__slide number-slide1 transition-transform duration-500"
+            >
               <div
                 className="lg:relative  pt-10 xsm:pb-12 sm:pb-16 md:pb-0"
                 data-aos="fade-up"
@@ -139,7 +156,10 @@ const Rooms = () => {
 
             {/* Rome three */}
 
-            <div className="keen-slider__slide number-slide1">
+            <div
+              style={{ transform: `translateX(-${current * 100}%)` }}
+              className="keen-slider__slide number-slide1 transition-transform duration-500"
+            >
               <div
                 className="lg:relative  pt-10 xsm:pb-12 sm:pb-16 md:pb-0"
                 data-aos="fade-up"
@@ -187,7 +207,10 @@ const Rooms = () => {
             </div>
             {/* Rome four */}
 
-            <div className="keen-slider__slide number-slide1">
+            <div
+              style={{ transform: `translateX(-${current * 100}%)` }}
+              className="keen-slider__slide number-slide1 transition-transform duration-500"
+            >
               <div
                 className="lg:relative  pt-10 xsm:pb-12 sm:pb-16 md:pb-0"
                 data-aos="fade-up"
@@ -236,9 +259,12 @@ const Rooms = () => {
 
             {/* Rome five */}
 
-            <div className="keen-slider__slide number-slide1">
+            <div
+              style={{ transform: `translateX(-${current * 100}%)` }}
+              className="keen-slider__slide number-slide1 transition-transform duration-500"
+            >
               <div
-                className="lg:relative  pt-10 xsm:pb-12 sm:pb-16 md:pb-0"
+                className="lg:relative  pt-10 xsm:pb-12 sm:pb-0 md:pb-0"
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
@@ -282,6 +308,47 @@ const Rooms = () => {
                 </div>
               </div>
             </div>
+
+            <button
+              onClick={prevSlide}
+              className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-200"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5 text-gray-700"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+            </button>
+
+            {/* Right Arrow */}
+            <button
+              onClick={nextSlide}
+              className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-200"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5 text-gray-700"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </button>
           </div>
         </div>
       </div>

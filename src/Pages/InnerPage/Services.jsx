@@ -276,11 +276,7 @@ const Services = () => {
                 Vacation/Trips.
               </p>
             </div>
-            <div className="mt-5 md:mt-0">
-              <Link to="tel:+919672579662">
-                <button className="btn-items">Contact Us</button>
-              </Link>
-            </div>
+           
           </div>
           {/* facilities container */}
           <div className="">

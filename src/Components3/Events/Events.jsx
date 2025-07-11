@@ -40,11 +40,11 @@ const Events = () => {
             Partner in the event
           </h3>
           <p className="font-Lora leading-[23px] sm:leading-[26px] text-gray dark:text-lightGray font-normal text-sm sm:text-base text-center mb-6 2xl:mb-9">
-            The Hotel <b>Royella City</b> is the perfect choice for business or
-            social meetings and events, a conference hotel in London, satisfying
-            your professional requirements. The hotel’s Halls cover a wide range
-            of events, such as conferences and corporate events, product
-            presentations.
+            The Hotel <b>Desert Hermitage City</b> is the perfect choice for
+            business or social meetings and events, a conference hotel in
+            London, satisfying your professional requirements. The hotel’s Halls
+            cover a wide range of events, such as conferences and corporate
+            events, product presentations.
           </p>
 
           <Link to={"/blog"} className="flex items-center  justify-center">
@@ -94,11 +94,11 @@ const Events = () => {
             Walking around London
           </h3>
           <p className="font-Lora leading-[23px] sm:leading-[26px] text-gray dark:text-lightGray font-normal text-sm sm:text-base text-center mb-6 2xl:mb-9">
-            The Hotel <b>Royella City</b> is the perfect choice for business or
-            social meetings and events, a conference hotel in London, satisfying
-            your professional requirements. The hotel’s Halls cover a wide range
-            of events, such as conferences and corporate events, product
-            presentations.
+            The Hotel <b>Desert Hermitage City</b> is the perfect choice for
+            business or social meetings and events, a conference hotel in
+            London, satisfying your professional requirements. The hotel’s Halls
+            cover a wide range of events, such as conferences and corporate
+            events, product presentations.
           </p>
 
           <Link to={"/blog"} className="flex items-center  justify-center">
@@ -148,11 +148,11 @@ const Events = () => {
             Partner in the event
           </h3>
           <p className="font-Lora leading-[23px] sm:leading-[26px] text-gray dark:text-lightGray font-normal text-sm sm:text-base text-center mb-6 2xl:mb-9">
-            The Hotel <b>Royella City</b> is the perfect choice for business or
-            social meetings and events, a conference hotel in London, satisfying
-            your professional requirements. The hotel’s Halls cover a wide range
-            of events, such as conferences and corporate events, product
-            presentations.
+            The Hotel <b>Desert Hermitage City</b> is the perfect choice for
+            business or social meetings and events, a conference hotel in
+            London, satisfying your professional requirements. The hotel’s Halls
+            cover a wide range of events, such as conferences and corporate
+            events, product presentations.
           </p>
 
           <Link to={"/blog"} className="flex items-center  justify-center">

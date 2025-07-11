@@ -155,7 +155,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="text-center py-5 2xl:py-7 bg-[#161616] text-sm md:text-base text-lightGray font-Lora font-normal">
-            {` © ${new Date().getFullYear()} , Royella. All Rights Reserved.`}
+            {` © ${new Date().getFullYear()} , Desert Hermitage. All Rights Reserved.`}
           </div>
         </div>
       </footer>

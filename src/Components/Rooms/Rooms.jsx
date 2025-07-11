@@ -211,7 +211,7 @@ const Rooms = () => {
             </div>
 
             <h1 className="text-[22px] sm:text-2xl md:text-3xl 2xl:text-[38px] leading-7 sm:leading-8 md:leading-9 lg:leading-[42px] 2xl:leading-[52px] text-lightBlack dark:text-white mb-[6]  font-Garamond font-semibold uppercase">
-              Royella’s Rooms & Suites
+              Desert Hermitage’s Rooms & Suites
             </h1>
             <p className="font-Lora leading-[26px] text-gray dark:text-lightGray font-normal text-sm sm:text-base mt-[15px] lg:mt-0">
               Proactively morph optimal infomediaries rather than accurate
