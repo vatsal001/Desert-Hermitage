@@ -245,15 +245,13 @@ const About = () => {
 
       {/* Latest Blog */}
 
-      <div className=" dark:bg-normalBlack">
+      {/* <div className=" dark:bg-normalBlack">
         <section className="Container py-20 lg:py-[120px]">
-          {/* Section Header */}
           <div
             className=" text-center mx-auto  px-5 sm:px-8 md:px-[80px] lg:px-[120px] xl:px-[200px] 2xl:px-[335px]"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            {/* Section logo */}
             <div className="flex items-center justify-center space-x-2 mb-4  ">
               <hr className="w-[100px] h-[1px] text-[#dedbd4] dark:text-[#3b3b3b] " />
               <img
@@ -273,12 +271,12 @@ const About = () => {
               resource-leveling
             </p>
           </div>
-          {/* all blogs are here */}
+          
           <div className="relative">
             <div className="mt-14 2xl:mt-[60px] keen-slider" ref={sliderRef}>
-              {/* slide - 1 */}
+              
               <div className="keen-slider__slide number-slide1 ">
-                {/* card one */}
+                
                 <div
                   className="overflow-hidden 3xl:w-[410px] group"
                   data-aos="fade-up"
@@ -327,7 +325,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              {/* slide - 2 */}
+              
               <div className="keen-slider__slide number-slide1 ">
                 <div
                   className="overflow-hidden 3xl:w-[410px] group"
@@ -377,7 +375,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              {/* slide - 3 */}
+              
               <div className="keen-slider__slide number-slide1 ">
                 <div
                   className="overflow-hidden 3xl:w-[410px] group"
@@ -430,7 +428,7 @@ const About = () => {
             </div>
           </div>
         </section>
-      </div>
+      </div> */}
     </section>
   );
 };

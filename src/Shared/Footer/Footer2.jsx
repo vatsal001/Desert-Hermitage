@@ -4,7 +4,7 @@ const Footer2 = () => {
   return (
     <footer className="lg:pt-[100px]  dark:bg-lightBlack ">
       <div className=" py-20 2xl:py-[120px]">
-        <div className="Container grid items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-12 2xl:grid-cols-8  justify-between gap-5 px-2">
+        <div className="Container grid items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-12 2xl:grid-cols-10  justify-between gap-5 px-2">
           {/* logo and text */}
           <div
             className="px-5 lg:px-2 lg:col-span-3 2xl:col-span-4  "
@@ -59,29 +59,29 @@ const Footer2 = () => {
             </ul>
           </div>
           {/* information*/}
-          {/* <div
+          <div
             className="px-5 lg:px-2 lg:col-span-2 2xl:col-span-2"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             <h4 className="text-lg leading-[46px] font-Garamond font-bold text pb-4 md:pb-5  text-lightBlack dark:text-white">
-              INFORMATION
+              Quick Links
             </h4>
             <ul className="">
               <li className="text-gray dark:text-lightGray font-normal font-Lora text-sm xl:text-base mb-[15px] hover:text-khaki transition-all duration-300">
-                <Link to="#"> Our Location</Link>
+                <Link to="/"> Home</Link>
               </li>
               <li className="text-gray dark:text-lightGray font-normal font-Lora text-sm xl:text-base mb-[15px] hover:text-khaki transition-all duration-300">
-                <Link to="#"> Career</Link>
+                <Link to="/about"> About</Link>
               </li>
               <li className="text-gray dark:text-lightGray font-normal font-Lora text-sm xl:text-base mb-[15px] hover:text-khaki transition-all duration-300">
-                <Link to="#"> Customer support</Link>
+                <Link to="/room"> Accomodations</Link>
               </li>
               <li className="text-gray dark:text-lightGray font-normal font-Lora text-sm xl:text-base mb-[15px] hover:text-khaki transition-all duration-300">
-                <Link to="#"> About Us</Link>
+                <Link to="/contact"> Contact Us</Link>
               </li>
             </ul>
-          </div> */}
+          </div>
           {/* gallery*/}
         </div>
       </div>
