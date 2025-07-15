@@ -15,7 +15,9 @@ import Blog from "../Pages/InnerPage/Blog";
 import BlogDetails from "../Pages/InnerPage/BlogDetails";
 import Contact from "../Pages/InnerPage/Contact";
 import ErrorPage from "../Shared/ErrorPage/ErrorPage";
-import Gallery from "../Components5/Gallery/Gallery";
+import DeluxCottages from "../Pages/InnerPage/DeluxCottage";
+import GroupStayHut from "../Pages/InnerPage/GroupChat";
+import Cottages from "../Pages/InnerPage/Cottages";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,18 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home2 />,
+      },
+      {
+        path: "/Cottages",
+        element: <Cottages />,
+      },
+      {
+        path: "/DeluxCottages",
+        element: <DeluxCottages />,
+      },
+      {
+        path: "/GroupStayHut",
+        element: <GroupStayHut />,
       },
       {
         path: "/about",
